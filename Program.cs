@@ -83,7 +83,7 @@ namespace unit_4_sample_assignment
             {
                 
                 double radius = 0.0;
-                collectRadius(radius);
+                radius = collectRadius(radius);
                 double area = 3.1416 * radius * radius;
                 WriteLine($"Circle Area = {area}");
                 pauseProgram();
@@ -94,7 +94,7 @@ namespace unit_4_sample_assignment
             {
                 Clear();
                 double radius = 0.0;
-                collectRadius(radius);
+                radius = collectRadius(radius);
                 double circumference = 3.1416 * radius * 2;
                 WriteLine($"Circle Circumference = {circumference}");
                 pauseProgram();
@@ -105,7 +105,7 @@ namespace unit_4_sample_assignment
             {
                 Clear();
                 double length = 0.0;
-                collectLength(length);
+                length = collectLength(length);
                 double area = length * length;
                 WriteLine($"Square area = {area}");
                 pauseProgram();
@@ -115,7 +115,7 @@ namespace unit_4_sample_assignment
             void calcSquarePerimeter()
             {
                 double length = 0.0;
-                collectLength(length);
+                length = collectLength(length);
                 double perimeter = length * 4;
                 WriteLine($"Square perimiter = {perimeter}");
                 pauseProgram();
@@ -145,9 +145,9 @@ namespace unit_4_sample_assignment
                 double length = 0.0;
                 double width = 0.0;
                 double depth = 0.0;
-                collectLength(length);
-                collectWidth(width);
-                collectDepth(depth);
+                lenght = collectLength(length);
+                width = collectWidth(width);
+                depth = collectDepth(depth);
                 double surfacearea = length * width * 2 + length * width * depth * 2;
                 WriteLine($"Cuboid surface area = {surfacearea}");
                 pauseProgram();
